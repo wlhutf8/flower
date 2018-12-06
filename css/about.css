@@ -1,0 +1,654 @@
+@charset "utf-8";
+.about{
+    width:100%;
+}
+.location{
+    width:100%;
+    background: #F8F9F9;
+}
+.location_list{
+    width:80%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 4rem;
+}
+.location_one{
+    font-size: 0.8em;
+    font-weight: 700;
+    color:#242424;
+    cursor: pointer;
+}
+.location_two{
+    font-size: 0.8em;
+    font-weight: 700;
+    color:#FF3D2A;
+}
+/*******************欢迎光临部分******************************/
+.about_one{
+    width:100%;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.about_one_list{
+    width:80%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+.about_left,.about_right{
+    width:46%;
+}
+.about_left>h5{
+    font-size: 1.5em;
+    color:#242424;
+    margin-top: 2rem;
+}
+.about_left>h5>span{
+    color:#FF3D2A;
+    font-size: 2em;
+}
+.p_shu{
+    width:4rem;
+    height:1.5px;
+    background: #FF3D2A;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.p_one{
+    font-size: 0.8em;
+    color:#242424;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+.p_two{
+    font-size: 0.8em;
+    color:#242424;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+.about_btn{
+    width:100%;
+}
+.about_btn>button{
+    width:10rem;
+    line-height: 2.8rem;
+    background: #FF3D2A;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 0.8em;
+    color:#ffffff;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.about_btn>button:hover{
+    background: #242424;
+    transition: all 0.3s linear;
+}
+.right_img{
+    width:100%;
+}
+.right_img>img{
+    width:100%;
+}
+
+/********************关于我们部分荣誉部分************************/
+.honor{
+    width:100%;
+    background: #F8F9F9;
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+}
+.honor>ul{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.honor>ul>li{
+    width:25%;
+    text-align: center;
+    cursor: pointer;
+}
+.honor_img{
+    width:100%;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.honor_text{
+    width:100%;
+    text-align: center;
+}
+.honor_text>h5{
+    font-size: 2.5em;
+    color:#FF3D2A;
+    font-family: "Rubik", sans-serif !important;
+}
+.honor_text>p{
+    font-size: 1em;
+    color:#454545;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+    font-family: "Rubik", sans-serif !important;
+}
+.honor>ul>li:hover .honor_img>img{
+    -webkit-animation:honor2 250ms ease-in-out 0s 1 normal none running;
+    -moz-animation:honor2 250ms ease-in-out 0s 1 normal none running;
+    -ms-animation:honor2 250ms ease-in-out 0s 1 normal none running;
+    animation:honor2 250ms ease-in-out 0s 1 normal none running;
+
+    /*animation-name: tada;/!*动画名称*!/*/
+    /*animation-duration: 850ms;/!*设置单次动画的执行时间*!/*/
+    /*animation-timing-function: ease-in-out;/!*设置动画执行速率，默认为ease-in-out，匀速使用linear*!/*/
+    /*animation-delay: 0s;/!*动画延时时间*!/*/
+    /*animation-iteration-count: 1;/!*动画执行次数，默认为1，设置为infinite表示无限次*!/*/
+    /*animation-direction: normal;/!*控制动画是否播放*!/*/
+    /*animation-fill-mode: none;/!*规定动画在播放之前或之后，其动画效果是否可见。*!/*/
+    /*animation-play-state: running;/!*规定动画正在运行还是暂停。*!/*/
+}
+
+
+/*********关键帧部分样式*********/
+@keyframes honor2 {
+    0% {
+        transform:rotate(-4deg);
+        -ms-transform:rotate(-4deg); /* IE 9 */
+        -moz-transform:rotate(-4deg); /* Firefox */
+        -webkit-transform:rotate(-4deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-4deg); /* Opera */
+    }
+    30% {
+        transform:rotate(4deg);
+        -ms-transform:rotate(4deg); /* IE 9 */
+        -moz-transform:rotate(4deg); /* Firefox */
+        -webkit-transform:rotate(4deg); /* Safari 和 Chrome */
+        -o-transform:rotate(4deg); /* Opera */
+    }
+    60% {
+        transform:rotate(-4deg);
+        -ms-transform:rotate(-4deg); /* IE 9 */
+        -moz-transform:rotate(-4deg); /* Firefox */
+        -webkit-transform:rotate(-4deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-4deg); /* Opera */
+     }
+
+    90% {
+        transform:rotate(4deg);
+        -ms-transform:rotate(4deg); /* IE 9 */
+        -moz-transform:rotate(4deg); /* Firefox */
+        -webkit-transform:rotate(4deg); /* Safari 和 Chrome */
+        -o-transform:rotate(4deg); /* Opera */
+    }
+
+    100% {
+        transform:rotate(-4deg);
+        -ms-transform:rotate(-4deg); /* IE 9 */
+        -moz-transform:rotate(-4deg); /* Firefox */
+        -webkit-transform:rotate(-4deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-4deg); /* Opera */
+    }
+}
+
+
+
+/**********************团队成员部分*****************************/
+.team{
+    width:100%;
+}
+.team_title{
+    width:100%;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+.team_title>h5{
+    font-size: 1em;
+    color:#242424;
+}
+.team_title>p{
+    width:5rem;
+    height:2px;
+    background:#242424;
+    margin: 1rem auto;
+}
+.team_list{
+    width:100%;
+}
+.team_list>ul{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.team_list>ul>li{
+    width:20%;
+    cursor: pointer;
+}
+.team_img{
+    width:100%;
+    position: relative;
+    overflow: hidden;
+}
+.team_img>img{
+    width:100%;
+}
+.team_text{
+    width:100%;
+    text-align: center;
+    box-shadow: #DEDEDE 0px 0px 15px 1px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.team_text>h5{
+    font-size: 1em;
+    color:#242424;
+}
+.team_text>p{
+    font-size: 0.8em;
+    color:#242424;
+    margin-top: 0.8rem;
+}
+
+.icon_one{
+    width:2.5rem;
+    line-height: 2.5rem;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    position: absolute;
+    transition: all 0.3s linear;
+}
+.ioc_one{
+    background: #1743B9;
+    border:1px solid #1743B9;
+    top:0;
+    right:-50px;
+    transition: all 0.3s linear;
+}
+.ioc_one:hover{
+    background: rgba(0,0,0,0);
+    transition: all 0.3s linear;
+}
+.team_list>ul>li:hover .ioc_one{
+    right:5px;
+    transition: all 0.3s linear;
+}
+.ioc_two{
+    background: #7CB7F2;
+    border:1px solid #7CB7F2;
+    top:3rem;
+    right:-90px;
+    transition: all 0.3s linear;
+}
+.ioc_two:hover{
+    background: rgba(0,0,0,0);
+    transition: all 0.3s linear;
+}
+.team_list>ul>li:hover .ioc_two{
+    right:5px;
+    transition: all 0.5s linear;
+}
+.ioc_three{
+    background: #D12CC6;
+    border:1px solid #D12CC6;
+    top:6rem;
+    right:-137px;
+    transition: all 0.3s linear;
+}
+.ioc_three:hover{
+    background: rgba(0,0,0,0);
+    transition: all 0.3s linear;
+}
+.team_list>ul>li:hover .ioc_three{
+    right:5px;
+    transition: all 0.8s linear;
+}
+
+
+
+/***********************造型部分样式******************************/
+.modelling{
+    width:100%;
+    margin-top: 6rem;
+    position: relative;
+}
+.modelling>img{
+    width:100%;
+}
+
+.box{
+    width: 25%;
+    height:18rem;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+.picBox{
+    width:300%;
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid red;*/
+}
+.picBox>li{
+    width:33.5%;
+    /*border:1px solid #454545;*/
+}
+.box_img{
+    width: 3rem;
+    line-height: 3rem;
+    margin: 0 auto;
+    /*border: 1px solid #454545;*/
+}
+.picBox>li>p{
+    font-size: 0.8em;
+    color:#ffffff;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+}
+.picBox>li>h5{
+    font-size: 1.2em;
+    color:#ffffff;
+    margin-top: 2rem;
+}
+.num {
+    list-style: none;
+    width: 55px;
+    position: absolute;
+    bottom: -30px;
+    right: 43%;
+    margin: 2rem auto;
+}
+.num li{
+    width: 10px;
+    height:10px;
+    background-color: white;
+    opacity: 1;
+    line-height: 18px;
+    float: left;
+    margin-left: 5px;
+    font-size: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.num li.on{
+    width:10px;
+    height:10px;
+    background-color: red;
+    opacity: 1;
+    font-size: 18px;
+    line-height: 20px;
+    float: left;
+    border: red solid 1px;
+}
+
+
+/********************品牌部分样式****************************/
+.brand{
+    width:100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.brand>ul{
+    width:80%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+.brand>ul>li{
+    width:20%;
+    text-align: center;
+}
+
+
+
+
+/**********************平板端的媒体查询*********************************/
+@media screen and (min-width:992px) and (max-width:1199px){
+    .right_img>img {
+        margin-top: 4rem;
+    }
+    .team_list>ul>li {
+        width: 23%;
+        cursor: pointer;
+    }
+    .box_img {
+        width: 2rem;
+        line-height: 2rem;
+    }
+    .box_img>img{
+        width:100%;
+    }
+    .picBox>li>p {
+        font-size: 0.5em;
+        margin-top: 1rem;
+    }
+    .box {
+        top: 5%;
+    }
+    .picBox>li>h5 {
+        font-size: 1em;
+        margin-top: 1rem;
+    }
+    .num {
+        bottom: 0px;
+        right: 38%;
+    }
+}
+
+
+
+
+
+/*******************大屏手机端媒体查询********************************/
+@media screen and (min-width:768px) and (max-width:991px){
+    .about_left>h5 {
+        font-size: 1em;
+        color: #242424;
+        margin-top: 1rem;
+    }
+    .p_shu {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .p_one {
+        font-size: 0.5em;
+    }
+    .p_two {
+        font-size: 0.5em;
+        margin-bottom: 2rem;
+    }
+    .right_img>img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .team_list>ul {
+        flex-wrap: wrap;
+    }
+    .team_list>ul>li {
+        width: 45%;
+        cursor: pointer;
+        margin-top: 3rem;
+    }
+    .team_title {
+        padding-bottom: 0rem;
+    }
+
+    .box {
+        width: 70%;
+        height: 13rem;
+        top: 0;
+        left: 15%;
+    }
+    .box_img {
+        width: 2rem;
+        line-height: 2rem;
+        margin-top: 1rem;
+    }
+    .box_img>img{
+        width:100%;
+    }
+    .picBox>li>p {
+        font-size: 0.5em;
+        margin-top: 1rem;
+    }
+    .picBox>li>h5 {
+        font-size: 1em;
+        margin-top: 1rem;
+    }
+    .num {
+        bottom: -32px;
+        right: 44%;
+        margin: 2rem auto;
+    }
+}
+
+
+
+
+
+/**********************小屏幕手机端媒体查询**************************************/
+@media screen and (min-width:320px) and (max-width:767px){
+    .about_one_list {
+        flex-wrap: wrap;
+    }
+    .about_left, .about_right {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .about_left>h5 {
+         margin-top: 0rem;
+    }
+    .about_one {
+        padding-top: 0rem;
+    }
+    .about_left>h5 {
+        font-size: 1em;
+    }
+    .p_shu {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .honor>ul {
+        flex-wrap: wrap;
+    }
+    .honor>ul>li {
+        width: 50%;
+        margin-top: 3rem;
+    }
+    .honor {
+        padding-top: 0rem;
+        padding-bottom: 4rem;
+    }
+    .team_title {
+        padding-top: 2rem;
+        padding-bottom: 0rem;
+    }
+    .team_list>ul {
+        flex-wrap: wrap;
+    }
+    .team_list>ul>li {
+        width: 100%;
+        cursor: pointer;
+        margin-top: 3rem;
+    }
+    .modelling {
+        margin-top: 4rem;
+    }
+    .modelling {
+        width: 100%;
+        height: 18rem;
+        margin-top: 4rem;
+        position: relative;
+        background: url('../img/bg-1.jpg') no-repeat 26% center;
+        background-size: cover;
+        /*background-position: 26%;*/
+    }
+    .modelling>img {
+        height: 100%;
+        display: none;
+    }
+    .modelling::before{
+        background-color: #000;
+        content: "";
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .box {
+        width: 95%;
+        height: 18rem;
+        position: absolute;
+        top: 0;
+        left: 7px;
+        text-align: center;
+        overflow: hidden;
+    }
+    .box_img {
+        width: 2rem;
+        line-height: 2rem;
+        margin-top: 1rem;
+    }
+    .box_img>img{
+        width:100%;
+    }
+    .picBox>li>p {
+        font-size: 0.5em;
+        margin-top: 1rem;
+    }
+    .picBox>li>h5 {
+        font-size: 1em;
+        margin-top: 1rem;
+    }
+    .num {
+        position: absolute;
+        bottom: 4px;
+        right: 40%;
+    }
+    .brand {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    .brand>ul {
+        width:100%;
+        flex-wrap: wrap;
+    }
+    .brand>ul>li {
+        width: 50%;
+        margin-top: 2rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

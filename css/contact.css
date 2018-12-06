@@ -1,0 +1,244 @@
+@charset "utf-8";
+.contact{
+    width:100%;
+}
+.location{
+    width:100%;
+    background: #F8F9F9;
+}
+.location_list{
+    width:80%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 4rem;
+}
+.location_one{
+    font-size: 0.8em;
+    font-weight: 700;
+    color:#242424;
+    cursor: pointer;
+}
+.location_two{
+    font-size: 0.8em;
+    font-weight: 700;
+    color:#FF3D2A;
+}
+
+
+/*****************我们信息部分**********************/
+.contact_list{
+    width:100%;
+}
+.contact_list>h5{
+    font-size: 1.8em;
+    color:#242424;
+    margin-top: 1rem;
+    margin-left: 12rem;
+}
+.contact_all{
+    width:80%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact_left{
+    width:20%;
+}
+.contact_left>p{
+    font-size: 1em;
+    color:#242424;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    margin-top: 1rem;
+}
+.contact_left>p:hover{
+    color:#FF3D2A;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+.contact_right{
+    width:80%;
+}
+.right_message{
+    width:100%;
+}
+.us_message>ul{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.us_message>ul>li{
+    width:30%;
+}
+.us_message>ul>li>h5{
+    font-size: 1em;
+    color:#242424;
+}
+.us_message>ul>li>p{
+    font-size: 0.8em;
+    color:#242424;
+    margin-top: 1rem;
+}
+
+
+
+/*******留言部分**********/
+.comment{
+    width:100%;
+}
+.input_all{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.input_one{
+    width:48%;
+}
+
+.input_one>input,.input_two>input{
+    width:100%;
+    line-height: 3rem;
+    outline: none;
+    border-radius: 2px;
+    padding-left: 0.5rem;
+    border:1px solid #EBEBEB;
+}
+.input_two{
+    margin-top: 2rem;
+}
+.input_one>input::-webkit-input-placeholder{
+    font-size: 0.8em;
+    color:#757575;
+}
+.input_one>input::-moz-placeholder{
+    font-size: 0.8em;
+    color:#757575;
+}
+.input_one>input:-ms-input-placeholder{
+    font-size: 0.8em;
+    color:#757575;
+}
+
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    outline: none;
+    border-radius: 2px;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    border:1px solid #EBEBEB;
+}
+textarea::-moz-placeholder{
+    font-size: 0.8em;
+}
+textarea::-webkit-input-placeholder{
+    font-size: 0.8em;
+}
+textarea:-ms-input-placeholder{
+    font-size: 0.8em;
+}
+.comment_btn{
+    width:100%;
+    margin-top: 2rem;
+}
+.comment_btn>button{
+    width:10rem;
+    line-height: 2.5rem;
+    border: none;
+    border-radius: 2px;
+    font-size: 0.8em;
+    color:#ffffff;
+    background: #FF3D2A;
+    outline: none;
+    text-align: center;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+.comment_btn>button:hover{
+    background: #242424;
+    transition: all 0.5s linear;
+}
+#allmap{
+    width:100%;
+    height:30rem;
+}
+.right_message{
+    display:none;
+}
+.right_message_show{
+    display:block;
+}
+
+/**********表单输入提示的信息样式***************/
+.msg{ font-size: 13px; }
+.onError{ color: red; }
+.onSuccess{ color: green; }
+.msg_show{
+    display:none;
+}
+
+
+
+
+/**********************平板端的媒体查询*********************************/
+@media screen and (min-width:992px) and (max-width:1199px){
+    .contact_list>h5 {
+        margin-left: 7rem;
+    }
+}
+
+
+
+
+
+/*******************大屏手机端媒体查询********************************/
+@media screen and (min-width:768px) and (max-width:991px){
+    .contact_list>h5 {
+        margin-left: 5rem;
+    }
+    .us_message{
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+
+
+
+
+/**********************小屏幕手机端媒体查询**************************************/
+@media screen and (min-width:320px) and (max-width:767px){
+    .contact_list>h5 {
+        font-size: 1em;
+        margin-left: 2rem;
+    }
+    .contact_all {
+        width: 90%;
+        flex-wrap: wrap;
+        margin: 1rem auto;
+    }
+    .contact_left {
+        width: 100%;
+    }
+    .contact_right {
+        width: 100%;
+    }
+    .right_message {
+        margin-top: 2rem;
+    }
+    .us_message>ul {
+        flex-wrap: wrap;
+    }
+    .us_message>ul>li {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .us_message>ul>li>p {
+        margin-top: 0rem;
+    }
+}
+
+
+
+

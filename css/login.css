@@ -1,0 +1,164 @@
+@charset "utf-8";
+.login{
+    width:100%;
+}
+.location{
+    width:100%;
+    background: #F8F9F9;
+}
+.location_list{
+    width:80%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 4rem;
+}
+.location_one{
+    font-size: 0.8em;
+    font-weight: 700;
+    color:#242424;
+    cursor: pointer;
+}
+.location_two{
+    font-size: 0.8em;
+    font-weight: 700;
+    color:#FF3D2A;
+}
+
+/*******************登陆框部分*******************/
+.login_box{
+    width:100%;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.box_two{
+    width:50%;
+    padding: 4rem 4rem;
+    margin: 0 auto;
+    border: 1px solid #F6F7F7;
+    box-shadow: #F6F7F7 0px 0px 2px 1px;
+}
+.login_form{
+    width:100%;
+}
+.login_input{
+    width:100%;
+    margin-top: 2rem;
+}
+.login_input>input{
+    width:100%;
+    line-height: 3rem;
+    font-size: 0.8em;
+    border:1px solid #EBEBEB;
+    background: #ffffff;
+    border-radius: 2px;
+}
+.login_btn{
+    width:100%;
+    margin-top: 2rem;
+}
+.login_btn>button{
+    width:10rem;
+    line-height: 3rem;
+    border-radius: 2px;
+    background: #F2F2F2;
+    text-align: center;
+    color:#242424;
+    font-size: 0.8em;
+    border: none;
+    font-weight: bold;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+.login_btn>button:hover{
+    background: #FF3D2A;
+    color:#ffffff;
+    transition: all 0.5s linear;
+}
+.login_btn>span{
+    display: inline-block;
+    color:#242424;
+    font-size: 0.8em;
+    margin-left: 24rem;
+    cursor: pointer;
+}
+.login_btn>span:hover{
+    color:#FF3D2A;
+}
+.box_two>p{
+    color:#242424;
+    font-size: 0.8em;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.box_two>p:hover{
+    color:#FF3D2A;
+}
+.box_two>h5{
+    font-size: 1.2em;
+    color:#242424;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+
+
+
+/**********************平板端的媒体查询*********************************/
+@media screen and (min-width:992px) and (max-width:1199px){
+    .login_btn>span {
+        margin-left: 17rem;
+    }
+
+}
+
+
+
+
+
+/*******************大屏手机端媒体查询********************************/
+@media screen and (min-width:768px) and (max-width:991px){
+    .login_btn>span {
+        margin-left: 10rem;
+    }
+}
+
+
+
+
+
+/**********************小屏幕手机端媒体查询**************************************/
+@media screen and (min-width:320px) and (max-width:767px){
+    .login_box {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .box_two {
+        width: 80%;
+        padding: 1rem 1rem;
+    }
+    .login_btn>button {
+        width: 6rem;
+        line-height: 2.5rem;
+    }
+    .login_btn>span {
+        margin-left: 6rem;
+    }
+    .box_two>h5 {
+        margin-bottom: 2rem;
+    }
+    .box_two>p {
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

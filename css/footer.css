@@ -1,0 +1,222 @@
+@charset "utf-8";
+#footer{
+    width:100%;
+    background: #F6F7F7;
+}
+.footer{
+    width:100%;
+}
+.footer_bottom{
+    width:100%;
+    background: #E7E8E8;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.footer_list,.footer_all{
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer_list{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.footer_item,.infinite_list,.join_us{
+    width:30%;
+}
+.footer_item>h5{
+    font-size: 1em;
+    color:#242424;
+}
+.footer_item>p{
+    font-size: 0.8em;
+    color:#313134;
+    line-height: 1.5rem;
+}
+.p_text{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.footer_item>p:nth-child(1){
+
+}
+.item_all{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+.item_img {
+    width: 1.5rem;
+    line-height: 1.5rem;
+    border-radius: 50%;
+    text-align: center;
+    /*border: 1px solid #F6F7F7;*/
+    transition: all 0.3s linear;
+    cursor: pointer;
+    position: relative;
+}
+.item_img+.item_img{
+    margin-left: 1rem;
+}
+.item_img>span{
+    width:3rem;
+    line-height: 1.3rem;
+    background: red;
+    color:#ffffff;
+    text-align: center;
+    display:inline-block;
+    font-size: 0.2em;
+    position: absolute;
+    top:-15px;
+    left:-12px;
+    opacity: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.item_img:hover span{
+    top:-20px;
+    opacity: 1;
+    transition: all 0.3s linear;
+}
+.infinite_list{
+    display:flex;
+    justify-content: space-between;
+}
+.infinite_item{
+    width:50%;
+}
+.infinite_item>h5{
+    font-size: 1em;
+    color:#242424;
+    margin-bottom: 1rem;
+}
+.item_p{
+    width:100%;
+}
+.item_p>p{
+    font-size: 0.8em;
+    color:#313134;
+    line-height: 2rem;
+}
+.join_us>h5{
+    font-size: 1em;
+    color:#242424;
+}
+.join_us>p{
+    font-size: 0.8em;
+    color:#313134;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.join_input{
+    width: 100%;
+    outline: none;
+    border: none;
+    line-height: 2.5rem;
+    background: #F6F7F7;
+    border-bottom: 1px solid #BBBBBB;
+}
+
+input::-webkit-input-placeholder{
+    font-size: 0.8em;
+    color:#313134;
+    padding-left: 0.5rem;
+}
+input::-moz-placeholder{
+    font-size: 0.8em;
+    color:#313134;
+    padding-left: 0.5rem;
+}
+input:-ms-input-placeholder{
+    font-size: 0.8em;
+    color:#313134;
+    padding-left: 0.5rem;
+}
+input::placeholder{
+    font-size: 0.8em;
+    color:#313134;
+    padding-left: 0.5rem;
+}
+.join_btn{
+    width:100%;
+    margin-top: 2rem;
+}
+.join_btn>button{
+    width:10rem;
+    line-height: 2.8rem;
+    font-size: 1em;
+    color:#ffffff;
+    outline: none;
+    background: #FF3D2A;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.join_btn>button:hover{
+    background: #242424;
+    transition: all 0.3s linear;
+}
+
+
+
+
+
+/**********************平板端的媒体查询*********************************/
+@media screen and (min-width:992px) and (max-width:1199px){
+    .footer_list, .footer_all {
+        width: 90%;
+    }
+}
+
+
+
+
+
+/*******************大屏手机端媒体查询********************************/
+@media screen and (min-width:768px) and (max-width:991px){
+    .p_text {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .infinite_item>h5 {
+        margin-bottom: 0.5rem;
+    }
+    .item_p>p {
+        line-height: 1.5rem;
+    }
+    .join_us>p {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+
+
+
+/**********************小屏幕手机端媒体查询**************************************/
+@media screen and (min-width:320px) and (max-width:767px){
+    .footer_list, .footer_all {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .footer_item, .infinite_list, .join_us {
+        width: 100%;
+    }
+    .infinite_list {
+        margin-top: 2rem;
+    }
+    .join_us {
+        margin-top: 2rem;
+    }
+    .bottom_img>img{
+        width:100%;
+        margin-top: 2rem;
+    }
+}
