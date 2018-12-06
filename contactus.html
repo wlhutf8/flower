@@ -1,0 +1,631 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->	<html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/icofont.css">
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?
+
+v=2.0&ak=G1GvlbuuXvZeCkddqxx0AUVdzuu3nVea"></script>
+
+    <style>
+        .high{color: red;}
+        .formtips{
+            width:200px;
+            margin: 2px;
+            padding: 2px;
+        }
+        .onSuccess{
+            /*background:#E9FBEB url(img/right.png) no-repeat 0 center;*/
+            color:green;
+            padding-left: 25px;
+            font-size: 0.8em;
+        }
+        .onError{
+            /*background:#FFE0E9 url(img/error.png) no-repeat 0 center;*/
+            color:red;
+            padding-left: 25px;
+            font-size: 0.8em;
+        }
+        td{width:500px;}
+        #btn{
+        width: 100%;
+        background-color: dodgerblue;
+        font-weight:100;
+        color: lightcoral;
+        }
+    </style>
+</head>
+<body class="hb-home hb-homeone">
+<!--[if lt IE 8]>
+<p class="browserupgrade">
+    You are using an
+    <strong>outdated</strong>
+    browser. Please
+    <a href="http://browsehappy.com/">
+        upgrade your browser
+    </a> to improve your experience.
+</p>
+<![endif]-->
+
+
+<div id="hb-wrapper" class="hb-wrapper hb-haslayout">
+    <!--导航栏部分-->
+    <header id="hb-header" class="hb-header v2 v3 hb-haslayout">
+        <!-- top部分-->
+        <div class="hb-topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="hb-info-area hidden-xs">
+                            <ul class="list-unstyled hb-info">
+                                <li>
+                                    <i class="fa fa-phone"></i>
+                                    <span>001-1234-8888
+                                        <a href="mailto:info.deercreative@gmail.com">
+                                            info.deercreative@gmail.com
+                                        </a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="javascript:void(0);" class="hb-btn hidden-xs">
+                            预约
+                        </a>
+                        <strong class="hb-logo">
+                            <a href="index.html">
+                                <img src="img/logo.png" alt="company logo here">
+                            </a>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bottom部分-->
+        <div class="hb-navigationarea">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <!-- 搜索图标-->
+                        <div class="hb-addnav">
+                            <div class="hb-searcharea">
+                                <a href="#" class="search-opener">
+                                    <i class="icon_search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 购物车部分-->
+                        <div class="hb-cartarea">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" 
+
+role="button" aria-haspopup="true" aria-expanded="false">
+                                <span class="icon_bag_alt"></span>
+                            </a>
+                            <!-- 购物车二级菜单-->
+                            <ul class="list-unstyled dropdown-menu hb-cart right">
+                                <li>
+                                    <figure>
+                                        <img src="img/cart-img01.jpg" alt="image 
+
+description">
+                                    </figure>
+                                    <h3><span>$130.00 x 1</span>油按摩</h3>
+                                    <button><i class="ti-close"></i></button>
+                                </li>
+                                <li>
+                                    <figure><img src="img/cart-img02.jpg" alt="image 
+
+description"></figure>
+                                    <h3><span>$130.00 x 1</span>油按摩</h3>
+                                    <button><i class="ti-close"></i></button>
+                                </li>
+                                <li>
+                                    <span class="hb-total">total:<em>$460.00</em></span>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" class="hb-btn hb-btn-lg  
+
+changehover">立即购买</a>
+                                    <a href="javascript:void(0);" class="hb-btn hb-btn-lg 
+
+">取消</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- 导航栏文字列表部分-->
+                        <nav id="hb-nav" class="hb-nav">
+                            <!-- 手机端切换的导航栏按钮-->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" 
+
+data-toggle="collapse" data-target="#hb-navigation" aria-expanded="false">
+                                    <span class="sr-only">切换导航</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <!-- 电脑端文字列表-->
+                            <div id="hb-navigation" class="collapse navbar-collapse hb-
+
+navigation">
+                                <ul>
+                                    <li class="menu-item-has-children">
+                                        <a href="index.html">首页</a>
+                                    </li>
+                                    <!--<li><a href="booking.html">预约部分 </a></li>-->
+                                    <li class="menu-item-has-children">
+                                        <a href="products.html">产品中心</a>
+                                        <ul class="list-unstyled sub-menu">
+                                            <li><a href="service.html">某某某某</a></li>
+                                            <li><a href="service.html">某某某某</a></li>
+                                            <li><a href="service.html">某某某某</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children current-menu-item">
+                                        <a href="aboutus.html">关于我们</a>
+                                        <ul class="list-unstyled sub-menu">
+                                            <li><a href="#">公司简介</a></li>
+                                            <li><a href="#">客户评价</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="news.html">新闻资讯</a>
+                                        <ul class="list-unstyled sub-menu">
+                                            <li><a href="#">新闻资讯</a></li>
+                                            <li><a href="#">新闻资讯</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="service.html">服务支持</a>
+                                        <ul class="list-unstyled sub-menu">
+                                            <li><a href="#">服务支持</a></li>
+                                            <li><a href="#">服务支持</a></li>
+                                            <li><a href="#">服务支持</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contactus.html">联系我们</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- 点击搜索的弹窗部分-->
+    <div class="search-popup">
+        <div class="holder">
+            <div class="block">
+                <a href="#" class="close-btn"><i class="fa fa-times"></i></a>
+                <form action="#" class="search-form">
+                    <fieldset>
+                        <input type="search" class="form-control" placeholder="输入关键字">
+                        <button type="submit" class="btn-primary"><i class="fa fa-
+
+search"></i></button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 横幅部分-->
+    <div id="hb-innerbanner" class="hb-innerbanner hb-haslayout">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="hb-innerbanner-area">
+                        <div  class="hb-bannarheading">
+                            <h1>联系我们</h1>
+                        </div>
+                        <ul class="hb-breadcrumb">
+                            <li><a href="index.html">首页</a></li>
+                            <li>联系我们</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main id="hb-main" class="hb-main hb-haslayout">
+        <section id="hb-contactus" class="hb-contactus hb-sectionspace hb-haslayout">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-sm-offset-0 col-md-8 col-md-
+
+offset-2">
+                        <div class="hb-sectionhead mb-50">
+                            <div class="hb-sectiontitle">
+                                <h2><span>欢迎到来</span>
+                                    乐园中心
+                                </h2>
+                            </div>
+                            <div class="hb-headcontent">
+                                <h2>你会喜欢每天都像神一样!</h2>
+                                <div class="hb-description">
+                                    <p>
+                                        天堂产品集植物学和先进
+                                        药妆成分以科学的美来表现
+                                        为您带来终极专业的a级护肤品
+                                        零售形式。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hb-contactus-area hb-haslayout">
+                        <!-- 地图定位部分-->
+                        <div class="contact_map col-xs-12 col-sm-12" id="allmap">
+                            <!--<figure class="hb-contactusmap" id="allmap">-->
+                                <!--&lt;!&ndash;<img src="img/contactus-img.jpg" 
+
+alt="images description">&ndash;&gt;-->
+                            <!--</figure>-->
+                        </div>
+                        <div class="hb-addressarea">
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                                <div class="hb-address">
+                                    <h2>澳大利亚</h2>
+                                    <div class="hb-addressbox">
+                                        <p>美国纽约，Baria Sreet 133/2
+                                            <span>邮箱: info.contact@gmail.com</span>
+                                            <span>电话: 123-456-7890</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                                <div class="hb-address">
+                                    <h2>澳大利亚</h2>
+                                    <div class="hb-addressbox">
+                                        <p>美国纽约，Baria Sreet 133/2
+                                            <span>邮箱: info.contact@gmail.com</span>
+                                            <span>电话: 123-456-7890</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 col-md-4">
+                                <div class="hb-address">
+                                    <h2>澳大利亚</h2>
+                                    <div class="hb-addressbox">
+                                        <p>美国纽约，Baria Sreet 133/2
+                                            <span>邮箱: info.contact@gmail.com</span>
+                                            <span>电话: 123-456-7890</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hb-contactus-formarea">
+                            <div class="col-xs-12">
+                                <div class="hb-headcontent">
+                                    <h2>通过电子邮件联系我们!</h2>
+                                    <div class="hb-description">
+                                        <p>
+                                            请填写下面的表格以获得免费和免费
+                                            机密开始咨询
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <form class="hb-formtheme hb-contactusform">
+                                <fieldset>
+                                    <div class="col-xs-12 col-sm-12 col-md-4">
+                                        <div class="form-group">
+                                            <input id="cusername" type="text" class="form-
+
+control required" name="name" placeholder="姓名">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4">
+                                        <div class="form-group">
+                                            <input id="cemail" type="text" class="form-
+
+control required" name="email" placeholder="邮箱">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4">
+                                        <div class="form-group">
+                                            <input id="cphone" type="text" class="form-
+
+control required" name="phone" placeholder="电话">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" placeholder="输
+
+入信息"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12">
+                                        <div class="form-group">
+                                            <button id="c_btn" type="submit" class="hb-
+
+btn">提交</button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!-- 底部部分-->
+    <footer id="hb-footer" class="hb-footer hb-haslayout">
+        <!-- top部分-->
+        <div class="hb-footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="hb-col">
+                            <strong class="hb-logo">
+                                <a href="javascript:void(0)">
+                                    <img src="img/logo.png" alt="">
+                                </a>
+                            </strong>
+                            <span class="hb-timeandday">营业时间: 8.00-18.00 星期一至五
+
+</span>
+                            <!-- 小图标部分-->
+                            <ul class="list-unstyled hb-socialicons">
+                                <li><a href="javascript:void(0);"><i class="fab fa-
+
+facebook-f"></i></a></li>
+                                <li><a href="javascript:void(0);"><i class="fab fa-
+
+twitter"></i></a></li>
+                                <li class="hb-googleplus"><a href="javascript:void(0);"><i 
+
+class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="javascript:void(0);"><i class="fab fa-
+
+instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="hb-col">
+                            <h3>联络方式</h3>
+                            <ul class="list-unstyled hb-info">
+                                <li>
+                                    <span>001-1234-8888
+                                        <a 
+
+href="mailto:info.deercreative@gmail.com">info.deercreative@gmail.com</a>
+                                    </span>
+                                </li>
+                                <li><span>40 Baria Sreet 133/2<em>美国纽约城市
+
+</em></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="hb-col">
+                            <h3>我们的通讯</h3>
+                            <div class="hb-emailarea">
+                                <form class="hb-formtheme">
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" 
+
+placeholder="邮箱">
+                                            <button type="submit" class="hb-btn">订阅
+
+</button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                            <div class="hb-description">
+                                <p>订阅我们的邮件列表，以获得更新到您的电子邮件收件箱。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="hb-col hb-widget">
+                            <ul>
+                                <li><a href="javascript:void(0);"><img src="img/widget-
+
+img01.jpg" alt="image description"></a></li>
+                                <li><a href="javascript:void(0);"><img src="img/widget-
+
+img02.jpg" alt="image description"></a></li>
+                                <li><a href="javascript:void(0);"><img src="img/widget-
+
+img03.jpg" alt="image description"></a></li>
+                                <li><a href="javascript:void(0);"><img src="img/widget-
+
+img04.jpg" alt="image description"></a></li>
+                                <li><a href="javascript:void(0);"><img src="img/widget-
+
+img05.jpg" alt="image description"></a></li>
+                                <li><a href="javascript:void(0);"><img src="img/widget-
+
+img06.jpg" alt="image description"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bottom部分-->
+        <div class="hb-footerbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <span class="hb-copyright"><a 
+
+href="http://www.17sucai.com/">Copyright</a> ©2018 DeerCreative.</span>
+                        <!--<ul class="list-unstyled hb-footernav">-->
+                        <!--<li><a href="javascript:void(0);">About </a></li>-->
+                        <!--<li><a href="javascript:void(0);">Terms & 
+
+Conditions</a></li>-->
+                        <!--<li><a href="javascript:void(0);">Privacy Policy</a></li>-->
+                        <!--<li><a href="javascript:void(0);">Contact</a></li>-->
+                        <!--</ul>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+
+
+
+<script src="js/jquery-library.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.pkgd.js"></script>
+<script src="js/isotop.js"></script>
+<script src="js/fancybox.js"></script>
+<script src="js/countTo.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+    //回复信息部分功能
+    $(document).ready(function(){
+        //1.页面加载之后把必须填的字段添加到文本框后面
+        $("input.required").each(function(){//中间不能够有空格 input .required是不对的
+            $(this).parent().append("<span class='high'>*</span>");
+        });
+        //2.给所有的文本框添加失去焦点blur事件。
+        $("input").blur(function(){
+            var $parent = $(this).parent();
+            //需要先清除样式为formtips的内容 用到find方法
+            $parent.find(".formtips").remove();
+
+
+            //2.1判断点击的是哪个文本框 不同的文本框处理的内容也是不同的
+
+            //判断姓名
+            if ($(this).is("#cusername")) {
+                var useName=/^[\u4E00-\u9FA5\uf900-\ufa2d·s]{2,20}$/;
+
+                //用户名不能为空，如果用户名为空的话，增加一个提示信息
+                if (this.value=="") {//为空
+                    $parent.append("<span class='formtips onError'>姓名不能为空！</span>")
+                }else if(!useName.test(this.value)){
+                    $parent.append("<span class='formtips onError'>输入不符合姓名规则!
+
+</span>")
+                }else{
+                    $parent.append("<span class='formtips onSuccess'>姓名输入正确!</span>")
+                }
+            }
+
+            //邮箱验证
+            if ($(this).is("#cemail")) {
+                var useEmail=/^([0-9A-Za-z\-_\.]+)@([0-9a-z]+\.[a-z]{2,3}(\.[a-z]{2})?)$/g;
+                if (this.value=="") {//为空
+                    $parent.append("<span class='formtips onError'>邮箱不能为空！</span>")
+                }else if(!useEmail.test(this.value)){
+                    $parent.append("<span class='formtips onError'>输入不符合邮箱规则！
+
+</span>")
+                }else{
+                    $parent.append("<span class='formtips onSuccess'>邮箱输入正确！
+
+</span>")
+                }
+            }
+
+
+            //电话号码验证
+            if ($(this).is("#cphone")) {
+                var usephone=/^1[34578]\d{9}$/;
+                if (this.value=="") {//为空
+                    $parent.append("<span class='formtips onError'>电话号码不能为空！
+
+</span>")
+                }else if(!usephone.test(this.value)){
+                    $parent.append("<span class='formtips onError'>输入不符合电话规则！
+
+</span>")
+                }else{
+                    $parent.append("<span class='formtips onSuccess'>电话号码输入正确！
+
+</span>")
+                }
+            }
+        });
+        //为表单添加一个submit时间，只要有错误信息 就不能够提交信息 应该return false。需要
+
+使用trigger执行自定blur方法
+        //trigger和triggerHandler的区别还有trigger是对每个元素的绑定的方法都会执行，而
+
+triggerHandler只会执行第一个
+        $("#c_btn").click(function(){
+            //首先执行需要把blur方法执行一遍，这样显示的错误信息 然后记录错误信息的长度 只
+
+要长度大于0就阻止提交
+            $("form input").trigger("blur");//执行之后会增加<span>元素
+            if($(".onError").length>0) {
+                return false;
+            }else{
+                alert("提交成功！");
+            }
+        });
+    });
+
+
+    //导航栏固定定位功能
+    $(function(){
+        //给浏览器加滚动条事件
+        $(window).scroll(function(){
+            //获得当前已滚动上去的距离
+            var t = $(document).scrollTop();
+//                console.log('=================='+t)
+            if(t>500){
+                $(".hb-navigationarea").addClass('hb_fixed');
+            }else{
+                $(".hb-navigationarea").removeClass('hb_fixed');
+            }
+        })
+    })
+</script>
+</body>
+<script type="text/javascript">
+    $(function(){
+        // 百度地图API功能
+        var map = new BMap.Map("allmap");
+        map.centerAndZoom(new BMap.Point(113.277821,22.782247), 14);
+
+        var local = new BMap.LocalSearch(map, {
+            renderOptions:{map: map}
+        });
+        local.searchInBounds("公司", map.getBounds());
+
+        map.addEventListener("dragend",function(){
+            map.clearOverlays();
+            local.searchInBounds("公司", map.getBounds());
+        });
+    })
+</script>
+</html>
