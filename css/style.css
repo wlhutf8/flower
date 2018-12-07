@@ -8797,6 +8797,13 @@ body {
 
 .hb-blogdetails .hb-postcontent {
   padding: 0;
+  padding-top: 3rem;
+}
+.postimage_message>figure{
+  display:none;
+}
+.active_image{
+  display: block !important;
 }
 
 .hb-tags-area {
